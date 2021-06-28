@@ -104,13 +104,45 @@
 2. [Windows 10 Pro x64 1803, Xalex v5, сборка 17134.137](research/benchmarks/latencymon/1803)
 3. [Windows 10 Pro x64 21H1, оригинал, сборка 19043.1055](research/benchmarks/latencymon/21H1)
 
-### CentBrowser
+### Cent Browser 4.3.9.248 (86.0)
 
 **Версия**: `4.3.9.248, (64 бит) (Chromium 86.0.4240.198)`
 
-### Chromium
+**Показаны результаты второго запуска тестов**, чтобы исключить загрузку JavaScript, вместо этого взять его из кэша браузера.
+
+#### JetStream 2 Benchmark
+
+* [Cent Browser — JetStream 2: 1709 (PDF)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/jetstream2/jetstream2--centbrowser-4.3.9.248-chromium-86-windows-10-1709-xalex-v4.pdf)
+* [Cent Browser — JetStream 2: 1803 (PDF)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/jetstream2/jetstream2--centbrowser-4.3.9.248-chromium-86-windows-10-1803-xalex-v5.pdf)
+* [Cent Browser — JetStream 2: 21H1 (1055) (PDF)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/jetstream2/jetstream2--centbrowser-4.3.9.248-chromium-86-windows-10-21H1-1055.pdf)
+
+#### Speedometer 2.0
+
+> Показывает реальную производительность JavaScript приложений в браузере на разных framework'ах.
+
+<details>
+  <summary>Cent Browser — Speedometer 2.0: 1709</summary>
+  
+  ![Cent Browser — Speedometer 2.0: 1709](research/benchmarks/centbrowser-4.3.9.248-chromium-86/speedometer20/speedometer20--centbrowser-4.3.9.248-chromium-86-windows-10-1709-xalex-v4.png)
+</details>
+
+<details>
+  <summary>Cent Browser — Speedometer 2.0: 1803</summary>
+  
+  ![Cent Browser — Speedometer 2.0: 1803](research/benchmarks/centbrowser-4.3.9.248-chromium-86/speedometer20/speedometer20--centbrowser-4.3.9.248-chromium-86-windows-10-1803-xalex-v5.png)
+</details>
+
+<details>
+  <summary>Cent Browser — Speedometer 2.0: 21H1 (1055)</summary>
+  
+  ![Cent Browser — Speedometer 2.0: 21H1 (1055)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/speedometer20/speedometer20--centbrowser-4.3.9.248-chromium-86-windows-10-21H1-1055.png)
+</details>
+
+### Chromium 93.0.4558
 
 **Версия**: `93.0.4558.0 (Сборка для разработчиков), (64 бит)`
+
+**Показаны результаты второго запуска тестов**, чтобы исключить загрузку JavaScript, вместо этого взять его из кэша браузера.
 
 ### UserBenchMark
 
