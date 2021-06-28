@@ -1,0 +1,48 @@
+:root {
+	--pixelperfect-font-sans: Arial, Tahoma, sans-serif;
+	--pixelperfect-font-mono: "Terminus (TTF) for Windows", Consolas, 'Courier New', monospace;
+}
+
+body {
+	font-family: var(--pixelperfect-font-sans);
+}
+
+b, strong {
+	font-weight: 600 !important;
+}
+
+var, pre, pre *,
+code, code *, kbd {
+	font-family: var(--pixelperfect-font-mono) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+h1, h2 {
+	border-bottom: none; /* HACK \/ */
+	padding-bottom: 0; /* Moved to :after */
+}
+/* HACK: Universal border-color hack dark/light theme for border-color */
+h1:after, h2:after {
+	content: '';
+	display: block;
+	border-bottom: 1px solid;
+	opacity: .15;
+	padding-top: .3em;
+}
+
+/* For Dark theme make borders more contrast */
+.vscode-dark h1:after, .vscode-dark h2:after {
+	opacity: .25;
+}
+
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+h4 { font-size: 1em; }
