@@ -38,7 +38,7 @@
 4. Для `Windows 10 Pro x64 21H1` обновление до `19043.1055` производилось при помощи DISM:  
    используя [KB5004476 пакет обновлений (прямая ссылка)](http://download.windowsupdate.com/d/msdownload/update/software/updt/2021/06/windows10.0-kb5004476-x64_d921e030a0749cb41551bbfa9b53c35edbb1e763.msu).  
    Инструкция по обновлению использовалась [по рекомендации @dvgm с форума Win10Tweaker](https://win10tweaker.ru/forum/topic/%d1%81%d0%b0%d0%bc%d0%b0%d1%8f-%d0%b1%d1%8b%d1%81%d1%82%d1%80%d0%b0%d1%8f-windows-10?part=9#postid-32771).
-5. Установлены: DirectX, .NET Framework 4.8, Visual C++ Redistribute
+5. Установлены: DirectX, .NET Framework 4.8, Visual C++ Redistribute.
 6. Отключены:  
    * файл гибернации
    * удалённый доступ
@@ -266,3 +266,66 @@
 1. [1709, Xalex v4](https://www.userbenchmark.com/UserRun/44249123)
 2. [1803, Xalex v5](https://www.userbenchmark.com/UserRun/44249239)
 3. [21H1 (1055)](https://www.userbenchmark.com/UserRun/44249324)
+
+## Занимаемое пространство
+
+* Установлены только Cent Browser и Win10Tweaker, а так же системные компоненты: DirectX, .NET Framework 4.8, Visual C++ Redistribute.
+* Edge удалён во всех версиях Windows.
+* Сжатие отключено, показан реальный размер и чистая производительность.
+
+<details>
+  <summary>1709 Xalex v4 – 6.52 Гб</summary>
+  
+  ![1709 Xalex v4](research/benchmarks/diskspace/1709.png)
+</details>
+
+<details>
+  <summary>1803 Xalex v5 – 7.5 Гб</summary>
+  
+  ![1803 Xalex v5](research/benchmarks/diskspace/1803.png)
+</details>
+
+<details>
+  <summary>21H1 (1055) – 15.6 Гб</summary>
+  
+  ![21H1 (1055)](research/benchmarks/diskspace/21H1.png)
+</details>
+
+## Потребление CPU и памяти
+
+<details>
+  <summary>1709 Xalex v4: CPU</summary>
+  
+  ![1709 Xalex v4: CPU](research/benchmarks/taskmgr/1709/cpu.png)
+</details>
+<details>
+  <summary>1709 Xalex v4: RAM</summary>
+  
+  ![1709 Xalex v4: RAM](research/benchmarks/taskmgr/1709/ram.png)
+</details>
+
+---
+
+<details>
+  <summary>1803 Xalex v5: CPU</summary>
+  
+  ![1803 Xalex v5: CPU](research/benchmarks/taskmgr/1803/cpu.png)
+</details>
+<details>
+  <summary>1803 Xalex v5: RAM</summary>
+  
+  ![1803 Xalex v5: RAM](research/benchmarks/taskmgr/1803/ram.png)
+</details>
+
+---
+
+<details>
+  <summary>21H1 (1055): CPU</summary>
+  
+  ![21H1 (1055): CPU](research/benchmarks/taskmgr/21H1/cpu.png)
+</details>
+<details>
+  <summary>21H1 (1055): RAM</summary>
+  
+  ![21H1 (1055): RAM](research/benchmarks/taskmgr/21H1/ram.png)
+</details>
