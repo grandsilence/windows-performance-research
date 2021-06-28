@@ -1,5 +1,7 @@
 # Исследование производительности семейства Windows
 
+Тесты выполнялись последовательно, а не параллельно, чтобы минимизировать шанс сторонних эффектов.
+
 ## Испытуемые
 
 1. Windows 10 Pro x64 1709, Xalex v4, сборка 16299.125
@@ -97,17 +99,13 @@
   ![Система](research/wtt/04.png)
 </details>
 
-## Тесты
-
-> Тесты выполнялись последовательно, а не параллельно, чтобы минимизировать шанс сторонних эффектов.
-
-### LatencyMon 7.00
+## Тест LatencyMon
 
 > Утилита для проверки задержек в системе, находит кривые драйвера. Нужна в основном для диагностики real time audio.  
 
 **Тест проводился ровно минуту.**
 
-#### LatencyMon: 1709 Xalex v4
+## Тест LatencyMon: 1709 Xalex v4
 
 [ИТОГОВЫЙ отчет LatencyMon для 1709 Xalex v4](research/benchmarks/latencymon/1709/README.md).  
 
@@ -135,7 +133,7 @@
   ![LatencyMon: 1709 Xalex v4 \[ вкладка: CPUs \]](research/benchmarks/latencymon/1709/CPUs.png)
 </details>
 
-#### LatencyMon: 1803 Xalex v5
+## Тест LatencyMon: 1803 Xalex v5
 
 [ИТОГОВЫЙ отчет LatencyMon для 1803 Xalex v5](research/benchmarks/latencymon/1803/README.md).  
 
@@ -163,7 +161,7 @@
   ![LatencyMon: 1803 Xalex v5 \[ вкладка: CPUs \]](research/benchmarks/latencymon/1803/CPUs.png)
 </details>
 
-#### LatencyMon: 21H1 (1055)
+## Тест LatencyMon: 21H1 (1055)
 
 [ИТОГОВЫЙ отчет LatencyMon для 21H1 (1055)](research/benchmarks/latencymon/21H1/README.md).  
 
@@ -191,19 +189,19 @@
   ![LatencyMon: 21H1 (1055) \[ вкладка: CPUs \]](research/benchmarks/latencymon/21H1/CPUs.png)
 </details>
 
-### Cent Browser 4.3.9.248 (86.0)
+## Тесты Cent Browser 4.3.9.248 (86.0)
 
 **Версия**: `4.3.9.248, (64 бит) (Chromium 86.0.4240.198)`
 
 **Показаны результаты второго запуска тестов**, чтобы исключить загрузку JavaScript, вместо этого взять его из кэша браузера.
 
-#### Cent Browser: JetStream 2 Benchmark
+### Тест Cent Browser: JetStream 2
 
 * [Cent Browser — JetStream 2: 1709 (PDF)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/jetstream2/jetstream2--centbrowser-4.3.9.248-chromium-86-windows-10-1709-xalex-v4.pdf)
 * [Cent Browser — JetStream 2: 1803 (PDF)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/jetstream2/jetstream2--centbrowser-4.3.9.248-chromium-86-windows-10-1803-xalex-v5.pdf)
 * [Cent Browser — JetStream 2: 21H1 (1055) (PDF)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/jetstream2/jetstream2--centbrowser-4.3.9.248-chromium-86-windows-10-21H1-1055.pdf)
 
-#### Cent Browser: Speedometer 2.0
+### Тест Cent Browser: Speedometer 2.0
 
 > Показывает реальную производительность JavaScript приложений в браузере на разных framework'ах.
 
@@ -225,7 +223,7 @@
   ![Cent Browser — Speedometer 2.0: 21H1 (1055)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/speedometer20/speedometer20--centbrowser-4.3.9.248-chromium-86-windows-10-21H1-1055.png)
 </details>
 
-### Chromium 93.0.4558
+## Тесты Chromium 93.0.4558
 
 **Версия**: `93.0.4558.0 (Сборка для разработчиков), (64 бит)`
 
@@ -233,13 +231,13 @@
 
 **Показаны результаты второго запуска тестов**, чтобы исключить загрузку JavaScript, вместо этого взять его из кэша браузера.
 
-#### Chromium: JetStream 2 Benchmark
+### Тест Chromium: JetStream 2
 
 * [Cent Browser — JetStream 2: 1709 (PDF)](research/benchmarks/chromium-93/jetstream2/jetstream2--chromium-93-windows-10-1709-xalex-v4.pdf)
 * [Cent Browser — JetStream 2: 1803 (PDF)](research/benchmarks/chromium-93/jetstream2/jetstream2--chromium-93-windows-10-1803-xalex-v5.pdf)
 * [Cent Browser — JetStream 2: 21H1 (1055) (PDF)](research/benchmarks/chromium-93/jetstream2/jetstream2--chromium-93-windows-10-21H1-1055.pdf)
 
-#### Chromium: Speedometer 2.0
+### Тест Chromium: Speedometer 2.0
 
 > Показывает реальную производительность JavaScript приложений в браузере на разных framework'ах.
 
@@ -261,10 +259,10 @@
   ![Chromium — Speedometer 2.0: 21H1 (1055)](research/benchmarks/chromium-93/speedometer20/speedometer20--chromium-93-windows-10-21H1-1055.png)
 </details>
 
-### UserBenchMark
+## Тесты UserBenchMark
 
 > Полезный тест только из-за System Memory Latency Ladder.
 
-1. [Windows 10 Pro x64 1709, Xalex v4, сборка 16299.125](https://www.userbenchmark.com/UserRun/44249123)
-2. [Windows 10 Pro x64 1803, Xalex v5, сборка 17134.137](https://www.userbenchmark.com/UserRun/44249239)
-3. [Windows 10 Pro x64 21H1, оригинал, сборка 19043.1055](https://www.userbenchmark.com/UserRun/44249324)
+1. [1709, Xalex v4](https://www.userbenchmark.com/UserRun/44249123)
+2. [1803, Xalex v5](https://www.userbenchmark.com/UserRun/44249239)
+3. [21H1 (1055)](https://www.userbenchmark.com/UserRun/44249324)
