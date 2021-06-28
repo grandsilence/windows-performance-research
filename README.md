@@ -15,6 +15,7 @@
 * i7 8700K 4.8 GHz (разгон)
 * RAM 3600 CL 16 (XMP) Dual Rank
 * M2 Samsung 970 Pro (MLC), виртуальные машины располагались на нём
+* Отключены C-States в BIOS чтобы снизить задержки.
 
 ### Конфигурация виртуальных машин
 
@@ -23,7 +24,7 @@
 
 * RAM: 4096
 * CPU ядра: 4
-* 2D и 3D ускорение отключено
+* 2D и 3D ускорение отключено (есть проблемы в Virtual Box при включении)
 * Intel виртуализация включена
 * Для носителя системы стоит галочка "твердотельный накопитель"
 
@@ -97,6 +98,72 @@
   <summary>Система</summary>
   
   ![Система](research/wtt/04.png)
+</details>
+
+## Потребление CPU и памяти
+
+<details>
+  <summary>1709 Xalex v4: CPU</summary>
+  
+  ![1709 Xalex v4: CPU](research/benchmarks/taskmgr/1709/cpu.png)
+</details>
+
+<details>
+  <summary>1709 Xalex v4: RAM</summary>
+  
+  ![1709 Xalex v4: RAM](research/benchmarks/taskmgr/1709/ram.png)
+</details>
+
+---
+
+<details>
+  <summary>1803 Xalex v5: CPU</summary>
+  
+  ![1803 Xalex v5: CPU](research/benchmarks/taskmgr/1803/cpu.png)
+</details>
+
+<details>
+  <summary>1803 Xalex v5: RAM</summary>
+  
+  ![1803 Xalex v5: RAM](research/benchmarks/taskmgr/1803/ram.png)
+</details>
+
+---
+
+<details>
+  <summary>21H1 (1055): CPU</summary>
+  
+  ![21H1 (1055): CPU](research/benchmarks/taskmgr/21H1/cpu.png)
+</details>
+
+<details>
+  <summary>21H1 (1055): RAM</summary>
+  
+  ![21H1 (1055): RAM](research/benchmarks/taskmgr/21H1/ram.png)
+</details>
+
+## Занимаемое пространство
+
+* Установлены только Cent Browser и Win10Tweaker, а так же системные компоненты: DirectX, .NET Framework 4.8, Visual C++ Redistribute.
+* Edge удалён во всех версиях Windows.
+* Сжатие отключено, показан реальный размер и чистая производительность.
+
+<details>
+  <summary>1709 Xalex v4 – 6.52 Гб</summary>
+  
+  ![1709 Xalex v4](research/benchmarks/diskspace/1709.png)
+</details>
+
+<details>
+  <summary>1803 Xalex v5 – 7.5 Гб</summary>
+  
+  ![1803 Xalex v5](research/benchmarks/diskspace/1803.png)
+</details>
+
+<details>
+  <summary>21H1 (1055) – 15.6 Гб</summary>
+  
+  ![21H1 (1055)](research/benchmarks/diskspace/21H1.png)
 </details>
 
 ## Тест LatencyMon
@@ -259,6 +326,28 @@
   ![Chromium — Speedometer 2.0: 21H1 (1055)](research/benchmarks/chromium-93/speedometer20/speedometer20--chromium-93-windows-10-21H1-1055.png)
 </details>
 
+## Тест REGDI32
+
+> Проверяет скорость отрисовки нативных дескрипторов окон GDI.
+
+<details>
+  <summary>REGDI32 — 1709 Xalex v4 — 00:06.084 || 00:00.838</summary>
+  
+  ![REGDI32 — 1709 Xalex v4](research/benchmarks/REGDI32/1709.png)
+</details>
+
+<details>
+  <summary>REGDI32 — 1803 Xalex v5 — 00:06.189 || 00:00.841</summary>
+  
+  ![REGDI32 — 1803 Xalex v5](research/benchmarks/REGDI32/1803.png)
+</details>
+
+<details>
+  <summary>REGDI32 — 21H1 (1055) — 00:05.974 || 00:01.173</summary>
+  
+  ![REGDI32 — 21H1 (1055)](research/benchmarks/REGDI32/21H1.png)
+</details>
+
 ## Тесты UserBenchMark
 
 > Полезный тест только из-за System Memory Latency Ladder.
@@ -266,66 +355,3 @@
 1. [1709, Xalex v4](https://www.userbenchmark.com/UserRun/44249123)
 2. [1803, Xalex v5](https://www.userbenchmark.com/UserRun/44249239)
 3. [21H1 (1055)](https://www.userbenchmark.com/UserRun/44249324)
-
-## Занимаемое пространство
-
-* Установлены только Cent Browser и Win10Tweaker, а так же системные компоненты: DirectX, .NET Framework 4.8, Visual C++ Redistribute.
-* Edge удалён во всех версиях Windows.
-* Сжатие отключено, показан реальный размер и чистая производительность.
-
-<details>
-  <summary>1709 Xalex v4 – 6.52 Гб</summary>
-  
-  ![1709 Xalex v4](research/benchmarks/diskspace/1709.png)
-</details>
-
-<details>
-  <summary>1803 Xalex v5 – 7.5 Гб</summary>
-  
-  ![1803 Xalex v5](research/benchmarks/diskspace/1803.png)
-</details>
-
-<details>
-  <summary>21H1 (1055) – 15.6 Гб</summary>
-  
-  ![21H1 (1055)](research/benchmarks/diskspace/21H1.png)
-</details>
-
-## Потребление CPU и памяти
-
-<details>
-  <summary>1709 Xalex v4: CPU</summary>
-  
-  ![1709 Xalex v4: CPU](research/benchmarks/taskmgr/1709/cpu.png)
-</details>
-<details>
-  <summary>1709 Xalex v4: RAM</summary>
-  
-  ![1709 Xalex v4: RAM](research/benchmarks/taskmgr/1709/ram.png)
-</details>
-
----
-
-<details>
-  <summary>1803 Xalex v5: CPU</summary>
-  
-  ![1803 Xalex v5: CPU](research/benchmarks/taskmgr/1803/cpu.png)
-</details>
-<details>
-  <summary>1803 Xalex v5: RAM</summary>
-  
-  ![1803 Xalex v5: RAM](research/benchmarks/taskmgr/1803/ram.png)
-</details>
-
----
-
-<details>
-  <summary>21H1 (1055): CPU</summary>
-  
-  ![21H1 (1055): CPU](research/benchmarks/taskmgr/21H1/cpu.png)
-</details>
-<details>
-  <summary>21H1 (1055): RAM</summary>
-  
-  ![21H1 (1055): RAM](research/benchmarks/taskmgr/21H1/ram.png)
-</details>
