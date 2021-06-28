@@ -98,11 +98,93 @@
 
 ### LatencyMon 7.00
 
-> Утилита для проверки задержек в системе, находит кривые драйвера. Нужна в основном для диагностики real time audio.
+> Утилита для проверки задержек в системе, находит кривые драйвера. Нужна в основном для диагностики real time audio.  
 
-1. [Windows 10 Pro x64 1709, Xalex v4, сборка 16299.125](research/benchmarks/latencymon/1709)
-2. [Windows 10 Pro x64 1803, Xalex v5, сборка 17134.137](research/benchmarks/latencymon/1803)
-3. [Windows 10 Pro x64 21H1, оригинал, сборка 19043.1055](research/benchmarks/latencymon/21H1)
+**Тест проводился ровно минуту.**
+
+#### LatencyMon: 1709 Xalex v4
+
+[ИТОГОВЫЙ отчет LatencyMon для 1709 Xalex v4](research/benchmarks/latencymon/1709/README.md).  
+
+<details>
+  <summary>LatencyMon: 1709 Xalex v4 [ вкладка: Main ]</summary>
+  
+  ![LatencyMon: 1709 Xalex v4 \[ вкладка: Main \]](research/benchmarks/latencymon/1709/Main.png)
+</details>
+
+<details>
+  <summary>LatencyMon: 1709 Xalex v4 [ вкладка: Processes ]</summary>
+  
+  ![LatencyMon: 1709 Xalex v4 \[ вкладка: Processes \]](research/benchmarks/latencymon/1709/Processes.png)
+</details>
+
+<details>
+  <summary>LatencyMon: 1709 Xalex v4 [ вкладка: Drivers ]</summary>
+  
+  ![LatencyMon: 1709 Xalex v4 \[ вкладка: Drivers \]](research/benchmarks/latencymon/1709/Drivers.png)
+</details>
+
+<details>
+  <summary>LatencyMon: 1709 Xalex v4 [ вкладка: CPUs ]</summary>
+  
+  ![LatencyMon: 1709 Xalex v4 \[ вкладка: CPUs \]](research/benchmarks/latencymon/1709/CPUs.png)
+</details>
+
+#### LatencyMon: 1803 Xalex v5
+
+[ИТОГОВЫЙ отчет LatencyMon для 1803 Xalex v5](research/benchmarks/latencymon/1803/README.md).  
+
+<details>
+  <summary>LatencyMon: 1803 Xalex v5 [ вкладка: Main ]</summary>
+  
+  ![LatencyMon: 1803 Xalex v5 \[ вкладка: Main \]](research/benchmarks/latencymon/1803/Main.png)
+</details>
+
+<details>
+  <summary>LatencyMon: 1803 Xalex v5 [ вкладка: Processes ]</summary>
+  
+  ![LatencyMon: 1803 Xalex v5 \[ вкладка: Processes \]](research/benchmarks/latencymon/1803/Processes.png)
+</details>
+
+<details>
+  <summary>LatencyMon: 1803 Xalex v5 [ вкладка: Drivers ]</summary>
+  
+  ![LatencyMon: 1803 Xalex v5 \[ вкладка: Drivers \]](research/benchmarks/latencymon/1803/Drivers.png)
+</details>
+
+<details>
+  <summary>LatencyMon: 1803 Xalex v5 [ вкладка: CPUs ]</summary>
+  
+  ![LatencyMon: 1803 Xalex v5 \[ вкладка: CPUs \]](research/benchmarks/latencymon/1803/CPUs.png)
+</details>
+
+#### LatencyMon: 21H1 (1055)
+
+[ИТОГОВЫЙ отчет LatencyMon для 21H1 (1055)](research/benchmarks/latencymon/21H1/README.md).  
+
+<details>
+  <summary>LatencyMon: 21H1 (1055) [ вкладка: Main ]</summary>
+  
+  ![LatencyMon: 21H1 (1055) \[ вкладка: Main \]](research/benchmarks/latencymon/21H1/Main.png)
+</details>
+
+<details>
+  <summary>LatencyMon: 21H1 (1055) [ вкладка: Processes ]</summary>
+  
+  ![LatencyMon: 21H1 (1055) \[ вкладка: Processes \]](research/benchmarks/latencymon/21H1/Processes.png)
+</details>
+
+<details>
+  <summary>LatencyMon: 21H1 (1055) [ вкладка: Drivers ]</summary>
+  
+  ![LatencyMon: 21H1 (1055) \[ вкладка: Drivers \]](research/benchmarks/latencymon/21H1/Drivers.png)
+</details>
+
+<details>
+  <summary>LatencyMon: 21H1 (1055) [ вкладка: CPUs ]</summary>
+  
+  ![LatencyMon: 21H1 (1055) \[ вкладка: CPUs \]](research/benchmarks/latencymon/21H1/CPUs.png)
+</details>
 
 ### Cent Browser 4.3.9.248 (86.0)
 
