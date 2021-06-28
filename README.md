@@ -192,13 +192,13 @@
 
 **Показаны результаты второго запуска тестов**, чтобы исключить загрузку JavaScript, вместо этого взять его из кэша браузера.
 
-#### JetStream 2 Benchmark
+#### Cent Browser: JetStream 2 Benchmark
 
 * [Cent Browser — JetStream 2: 1709 (PDF)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/jetstream2/jetstream2--centbrowser-4.3.9.248-chromium-86-windows-10-1709-xalex-v4.pdf)
 * [Cent Browser — JetStream 2: 1803 (PDF)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/jetstream2/jetstream2--centbrowser-4.3.9.248-chromium-86-windows-10-1803-xalex-v5.pdf)
 * [Cent Browser — JetStream 2: 21H1 (1055) (PDF)](research/benchmarks/centbrowser-4.3.9.248-chromium-86/jetstream2/jetstream2--centbrowser-4.3.9.248-chromium-86-windows-10-21H1-1055.pdf)
 
-#### Speedometer 2.0
+#### Cent Browser: Speedometer 2.0
 
 > Показывает реальную производительность JavaScript приложений в браузере на разных framework'ах.
 
@@ -225,6 +225,36 @@
 **Версия**: `93.0.4558.0 (Сборка для разработчиков), (64 бит)`
 
 **Показаны результаты второго запуска тестов**, чтобы исключить загрузку JavaScript, вместо этого взять его из кэша браузера.
+
+**Показаны результаты второго запуска тестов**, чтобы исключить загрузку JavaScript, вместо этого взять его из кэша браузера.
+
+#### Chromium: JetStream 2 Benchmark
+
+* [Cent Browser — JetStream 2: 1709 (PDF)](research/benchmarks/chromium-93/jetstream2/jetstream2--chromium-93-windows-10-1709-xalex-v4.pdf)
+* [Cent Browser — JetStream 2: 1803 (PDF)](research/benchmarks/chromium-93/jetstream2/jetstream2--chromium-93-windows-10-1803-xalex-v5.pdf)
+* [Cent Browser — JetStream 2: 21H1 (1055) (PDF)](research/benchmarks/chromium-93/jetstream2/jetstream2--chromium-93-windows-10-21H1-1055.pdf)
+
+#### Chromium: Speedometer 2.0
+
+> Показывает реальную производительность JavaScript приложений в браузере на разных framework'ах.
+
+<details>
+  <summary>Chromium — Speedometer 2.0: 1709</summary>
+  
+  ![Chromium — Speedometer 2.0: 1709](research/benchmarks/chromium-93/speedometer20/speedometer20--chromium-93-windows-10-1709-xalex-v4.png)
+</details>
+
+<details>
+  <summary>Chromium — Speedometer 2.0: 1803</summary>
+  
+  ![Chromium — Speedometer 2.0: 1803](research/benchmarks/chromium-93/speedometer20/speedometer20--chromium-93-windows-10-1803-xalex-v5.png)
+</details>
+
+<details>
+  <summary>Chromium — Speedometer 2.0: 21H1 (1055)</summary>
+  
+  ![Chromium — Speedometer 2.0: 21H1 (1055)](research/benchmarks/chromium-93/speedometer20/speedometer20--chromium-93-windows-10-21H1-1055.png)
+</details>
 
 ### UserBenchMark
 
