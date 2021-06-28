@@ -16,14 +16,6 @@
 
 ### Конфигурация виртуальных машин
 
-
-## TODO: REPLACE IT
-<details>
-  <summary>Click to expand!</summary>
-  
-  Something
-</details>
-
 Версия VirtualBox: `5.2.34` (+ Extensions)
 Испытания проводились в одинаковых виртуальных машинах, при следующей конфигурации:
 
@@ -69,8 +61,36 @@
 15. Отключены эффекты прозрачности Windows 10.
 16. Отключена защита Spectre и Meltdown при помощи [утилиты Inspectre](https://www.grc.com/inspectre.htm).
 17. Установлен период системного таймера 0.5 мс при помощи службы Set Timer Resolution (аналог [Intelligent Standby List Cleaner](https://www.wagnardsoft.com/content/intelligent-standby-list-cleaner-v1000-released)).
-18. Установлено одинаковое разрешение виртуальных машин: 1024x768
-19. Отключены маленькие кнопки панели задач для сборок Xalex (чтобы окна имели идентичный размер)
+18. Установлено одинаковое разрешение виртуальных машин: 1024x768.
+19. Отключены маленькие кнопки панели задач для сборок Xalex (чтобы окна имели идентичный размер).
+20. Никакое сжатие для систем не производилось.
+21. Применён Win10Tweaker с настройками ниже, отключены все службы и удалены все приложения под корень.
+
+### Конфигурация настроек Win10Tweaker
+
+<details>
+  <summary>Конфиденциальность</summary>
+  
+  Применены все пункты.
+</details>
+
+<details>
+  <summary>Контекстное меню</summary>
+  
+  ![Контекстное меню](research/wtt/02.png)
+</details>
+
+<details>
+  <summary>Интерфейс</summary>
+  
+  ![Интерфейс](research/wtt/03.png)
+</details>
+
+<details>
+  <summary>Система</summary>
+  
+  ![Система](research/wtt/04.png)
+</details>
 
 ## Тесты
 
@@ -99,4 +119,3 @@
 1. [Windows 10 Pro x64 1709, Xalex v4, сборка 16299.125](https://www.userbenchmark.com/UserRun/44249123)
 2. [Windows 10 Pro x64 1803, Xalex v5, сборка 17134.137](https://www.userbenchmark.com/UserRun/44249239)
 3. [Windows 10 Pro x64 21H1, оригинал, сборка 19043.1055](https://www.userbenchmark.com/UserRun/44249324)
-
