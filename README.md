@@ -236,30 +236,30 @@
 
 ## Тест LatencyMon: 21H1 (1055)
 
-[ИТОГОВЫЙ отчет LatencyMon для 21H1 (1055)](research/benchmarks/latencymon/21H1/README.md).  
+[ИТОГОВЫЙ отчет LatencyMon для 21H1 (1055)](research/benchmarks/latencymon/21H1-1055/README.md).  
 
 <details>
   <summary>LatencyMon: 21H1 (1055) [ вкладка: Main ]</summary>
   
-  ![LatencyMon: 21H1 (1055) \[ вкладка: Main \]](research/benchmarks/latencymon/21H1/Main.png)
+  ![LatencyMon: 21H1 (1055) \[ вкладка: Main \]](research/benchmarks/latencymon/21H1-1055/Main.png)
 </details>
 
 <details>
   <summary>LatencyMon: 21H1 (1055) [ вкладка: Processes ]</summary>
   
-  ![LatencyMon: 21H1 (1055) \[ вкладка: Processes \]](research/benchmarks/latencymon/21H1/Processes.png)
+  ![LatencyMon: 21H1 (1055) \[ вкладка: Processes \]](research/benchmarks/latencymon/21H1-1055/Processes.png)
 </details>
 
 <details>
   <summary>LatencyMon: 21H1 (1055) [ вкладка: Drivers ]</summary>
   
-  ![LatencyMon: 21H1 (1055) \[ вкладка: Drivers \]](research/benchmarks/latencymon/21H1/Drivers.png)
+  ![LatencyMon: 21H1 (1055) \[ вкладка: Drivers \]](research/benchmarks/latencymon/21H1-1055/Drivers.png)
 </details>
 
 <details>
   <summary>LatencyMon: 21H1 (1055) [ вкладка: CPUs ]</summary>
   
-  ![LatencyMon: 21H1 (1055) \[ вкладка: CPUs \]](research/benchmarks/latencymon/21H1/CPUs.png)
+  ![LatencyMon: 21H1 (1055) \[ вкладка: CPUs \]](research/benchmarks/latencymon/21H1-1055/CPUs.png)
 </details>
 
 ## Тесты Cent Browser 4.3.9.248 (86.0)
