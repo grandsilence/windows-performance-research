@@ -384,12 +384,22 @@
 
 Или выполнить перевод на один из кошельков:  
 
+* **QIWI**: [/GRANDSILENCE](https://qiwi.com/n/GRANDSILENCE)
 * **PayPal**: `grand.silence@mail.ru`
-* **Ю.Мани**: ``
-* **Webmoney (WMZ)**: ``
-* **Webmoney (WMR)**: ``
-* **Ethereum (ETH)**: ``
-* **Bitcoin (BTC)**: ``
-* **QIWI**: /GRANDSILENCE
-* **Сбербанк**: ``
-* **Тинькофф**: ``
+* **Ю.Мани**: `410011037924983`
+* **WebMoney**:
+  * **WMP**: `P246626749259`
+  * **WMZ**: `Z388404283477`
+  * **WME**: `E894184114651`
+
+---
+
+* **Сбербанк**: `5469 1300 1276 9277`
+* **Тинькофф**: `5536 9138 0835 6782`
+* **Альфабанк**: `5559 4937 1279 4685`
+
+---
+
+* **Bitcoin (BTC)**: `1KSf2a18nqGo5wTxiy9jY9sKs9FDkzQNnJ`
+* **Ethereum (ETH)**: `0xdecb423be7414c5977b15f276988125c4eebcb34`
+* **Tether (USDT)**: `0xdecb423be7414c5977b15f276988125c4eebcb34`
