@@ -361,3 +361,27 @@
 1. [1709, Xalex v4](https://www.userbenchmark.com/UserRun/44249123)
 2. [1803, Xalex v5](https://www.userbenchmark.com/UserRun/44249239)
 3. [21H1 (1055)](https://www.userbenchmark.com/UserRun/44249324)
+
+## Другие тесты
+
+Предлагайте ваши тесты в `Issues`. В будущем ещё сделаю замеры для Windows 8.1 Embedded, там потребление меньше чем в десятке и лучше подходит для ноутбуков.
+
+## Обратная связь
+
+[Telegram: @kelog](https://t.me/kelog)  
+  
+Если появилось желание поощрить мою работу:
+
+* [Можете угостить чашечкой кофе на BuyMeACoffee.com](https://www.buymeacoffee.com/grandsilence)
+
+Или выполнить перевод на один из кошельков:  
+
+* **PayPal**: `grand.silence@mail.ru`
+* **Ю.Мани**: ``
+* **Webmoney (WMZ)**: ``
+* **Webmoney (WMR)**: ``
+* **Ethereum (ETH)**: ``
+* **Bitcoin (BTC)**: ``
+* **QIWI**: /GRANDSILENCE
+* **Сбербанк**: ``
+* **Тинькофф**: ``
